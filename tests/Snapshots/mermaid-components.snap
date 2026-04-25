@@ -1,0 +1,9 @@
+flowchart TD
+    subgraph Controllers["Controllers"]
+        class_App_Http_Controllers_OrderController["OrderController"]
+    end
+    subgraph Services["Services"]
+        class_App_Services_OrderService["OrderService"]
+    end
+    class_App_Http_Controllers_OrderController --> class_App_Services_OrderService
+    route_GET__api_orders -->|index| class_App_Http_Controllers_OrderController

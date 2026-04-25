@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant Client
+    participant Route
+    Client->>Route: GET /api/orders
+    participant OrderController
+    Route->>OrderController: index()
+    participant OrderService
+    OrderController->>OrderService: call()
+    OrderController-->>Client: response
+    Note over Route: confidence 0.90

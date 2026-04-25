@@ -1,0 +1,61 @@
+{
+  "name": "ardana/laravel-archmap",
+  "description": "Generate Laravel architecture diagrams and documentation from your codebase.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "architecture",
+    "diagram",
+    "erd",
+    "mermaid",
+    "documentation"
+  ],
+  "authors": [
+    {
+      "name": "Ardana"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ardana\\Archmap\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ardana\\Archmap\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ardana\\Archmap\\ArchmapServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^11.0|^12.0|^13.0",
+    "illuminate/console": "^11.0|^12.0|^13.0",
+    "illuminate/routing": "^11.0|^12.0|^13.0",
+    "nikic/php-parser": "^5.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^9.0|^10.0|^11.0",
+    "pestphp/pest": "^3.0|^4.0",
+    "phpstan/phpstan": "^2.0",
+    "laravel/pint": "^1.0"
+  },
+  "scripts": {
+    "test": "pest",
+    "analyse": "phpstan analyse src --level=8",
+    "format": "pint"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}

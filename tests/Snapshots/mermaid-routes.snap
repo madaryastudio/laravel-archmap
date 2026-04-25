@@ -1,0 +1,2 @@
+flowchart TD
+    route_GET__api_orders["GET /api/orders"] --> class_App_Http_Controllers_OrderController["OrderController"]
