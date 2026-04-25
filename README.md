@@ -5,7 +5,7 @@ Generate Laravel architecture documentation from your codebase.
 ## Installation
 
 ```bash
-composer require ms/laravel-archmap --dev
+composer require madaryastudio/laravel-archmap --dev
 ```
 
 ## Publish Config

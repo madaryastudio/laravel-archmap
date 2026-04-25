@@ -20,7 +20,7 @@ Produk ini tidak hanya menjadi generator UML biasa. Fokus utamanya adalah memban
 Contoh penggunaan:
 
 ```bash
-composer require ms/laravel-archmap --dev
+composer require madaryastudio/laravel-archmap --dev
 php artisan vendor:publish --tag=archmap-config
 php artisan archmap:generate
 ```
@@ -223,7 +223,7 @@ v1.0 production harus mencakup:
 1. Developer install package:
 
 ```bash
-composer require ms/laravel-archmap --dev
+composer require madaryastudio/laravel-archmap --dev
 ```
 
 2. Developer publish config:
@@ -283,7 +283,7 @@ php artisan archmap:ci --fail-on=critical
 **Command:**
 
 ```bash
-composer require ms/laravel-archmap --dev
+composer require madaryastudio/laravel-archmap --dev
 ```
 
 **Acceptance Criteria:**
@@ -1290,7 +1290,7 @@ final class Graph
 Rekomendasi nama:
 
 ```text
-ms/laravel-archmap
+madaryastudio/laravel-archmap
 ```
 
 Alternatif:
@@ -1305,7 +1305,7 @@ ardana/laravel-blueprint
 
 ```json
 {
-  "name": "ms/laravel-archmap",
+  "name": "madaryastudio/laravel-archmap",
   "description": "Generate Laravel architecture diagrams and documentation from your codebase.",
   "type": "library",
   "license": "MIT",
@@ -1884,7 +1884,7 @@ Generate Laravel architecture documentation from your codebase.
 ## Installation
 
 ```bash
-composer require ms/laravel-archmap --dev
+composer require madaryastudio/laravel-archmap --dev
 ```
 
 ## Publish Config

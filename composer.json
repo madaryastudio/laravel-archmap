@@ -1,5 +1,5 @@
 {
-  "name": "ms/laravel-archmap",
+  "name": "madaryastudio/laravel-archmap",
   "description": "Generate Laravel architecture diagrams and documentation from your codebase.",
   "type": "library",
   "license": "MIT",
