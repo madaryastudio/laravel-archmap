@@ -5,7 +5,7 @@ Generate Laravel architecture documentation from your codebase.
 ## Installation
 
 ```bash
-composer require ardana/laravel-archmap --dev
+composer require ms/laravel-archmap --dev
 ```
 
 ## Publish Config
